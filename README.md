@@ -28,3 +28,17 @@ Future plans to test if this design scales as requirements expand and change:
 
 * a notification port (redis pub/sub?)
 * an alternative ui (wxPython? django rest framework? background jobs?)
+
+## Running the tests
+
+Run:
+
+```
+nosetests
+```
+
+or run them automatically when files change (using [testtube](https://github.com/thomasw/testtube)) with:
+
+```
+stir
+```
